@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "raleway";
+  src: url("police/Raleway-Regular.ttf"), url("police/Raleway-Thin.ttf"),
+    url("police/Raleway-Light.ttf"), url("police/Raleway-ExtraLight.ttf"),
+    url("police/Raleway-Medium.ttf"), url("police/Raleway-SemiBold.ttf"),
+    url("police/Raleway-Bold.ttf"), url("police/Raleway-ExtraBold.ttf"),
+    url("police/Raleway-Black.ttf"), url("police/Raleway-ThinItalic.ttf"),
+    url("police/Raleway-ExtraLightItalic.ttf"),
+    url("police/Raleway-LightItalic.ttf"), url("police/Raleway-Italic.ttf"),
+    url("police/Raleway-MediumItalic.ttf"),
+    url("police/Raleway-SemiBoldItalic.ttf"),
+    url("police/Raleway-BoldItalic.ttf"),
+    url("police/Raleway-ExtraBoldItalic.ttf"),
+    url("police/Raleway-BlackItalic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "raleway", Arial, sans-serif;
+  font-style: normal;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 4%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav li {
+  margin-right: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+header a {
+  display: flex;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.tete {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.inscrire a {
+  font-family: "Raleway Bold", arial;
+  color: #0065fc;
+}

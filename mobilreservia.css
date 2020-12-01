@@ -1,0 +1,38 @@
+body {
+  color: green;
+}
+
+header {
+  display: flex;
+  margin-top: 4%;
+}
+
+.logo {
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+nav li {
+  margin-right: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+header a {
+  display: flex;
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.tete {
+  display: flex;
+}
+.inscrire a {
+  font-family: "Raleway Bold", arial;
+  color: #0065fc;
+}
