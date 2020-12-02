@@ -1,3 +1,4 @@
+/* ##############  CORPS ################ */
 @font-face {
   font-family: "raleway";
   src: url("police/Raleway-Regular.ttf"), url("police/Raleway-Thin.ttf"),
@@ -22,44 +23,57 @@ body {
   margin-left: 4%;
   margin-right: 4%;
 }
-
-header {
+/* ##############  FIN CORPS ################ */
+/* ##################################################################################################### */
+/* ##############  EN-TETE ################ */
+.header1 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 4%;
 }
 
-.logo {
+.header2 {
+  display: none;
+}
+
+.logo1 {
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
 
-nav ul {
-  list-style-type: none;
+.menu {
   display: flex;
-}
-nav li {
-  margin-right: 15px;
-}
-nav a {
-  text-decoration: none;
-  color: black;
 }
 
-header a {
-  display: flex;
-  text-decoration: none;
-  margin-left: 50px;
+.menu input {
+  display: none;
 }
 
-.tete {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
+.menu label {
+  text-align: center;
+  line-height: 4rem;
+  cursor: pointer;
+  margin-top: -0.4697em;
 }
-.inscrire a {
-  font-family: "Raleway Bold", arial;
+
+.menu input:checked + label {
+  width: 10em;
+  box-shadow: inset 0em 0.2em #0065fc;
   color: #0065fc;
 }
+.menu a {
+  display: flex;
+  text-decoration: none;
+  color: #0065fc;
+  font-weight: bolder;
+  margin-top: 15px;
+}
+
+.tete div label {
+  width: 160px;
+  display: flex;
+  justify-content: center;
+}
+/* ############## FIN DE EN-TETE ################ */
+/* ##################################################################################################### */

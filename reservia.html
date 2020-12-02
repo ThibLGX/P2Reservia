@@ -35,29 +35,41 @@
 	<title>Réservia</title>
 </head>
 <body>
-	<!-- header-->
-	<header>
-		<div><img src="images/logo/Reservia.svg" alt="logo" class="logo"></div><!-- image du logo -->
+	<!-- ---------------------header---------------------------------------------------------------------------------- -->
+	<header class="header1"><!-- en-tête ordi et tablette -->
+		<div><img src="images/logo/Reservia.svg" alt="logo1" class="logo1"></div><!-- image du logo -->
 		
 		<div class="tete">
+			<div class="menu">
+				<input id="hebergement1" type="radio" name="menu" checked>
+				<label for="hebergement1">Hébergements</label>
+	
+				<input id="activites1" type="radio" name="menu">
+				<label for="activites1">Activités</label>
 
-			<div class="inscrire"><a href="#">S'inscrire</a></div>
+				<a href="#">S'inscrire</a>
+			</div>
 
-			<div><nav id="menu">
-				<ul>
-					<li><a href="#">Hébergement</a></li>
-					<li><a href="#">Activités</a></li>
-				</ul>
-			</nav></div>
+			</div><!-- S'inscrire -->
+		</div>
+	</header>
 
+	<header class="header2"><!-- en-tête mobil -->
+		<div class="upheader">
+			<div><img src="images/logo/Reservia.svg" alt="logo" class="logo"></div><!-- image du logo -->
+			<div class="inscrire2"><a href="#">S'inscrire</a></div><!-- S'inscrire -->
+		</div>
+		<div class="tabs">
+			<input id="hebergement2" type="radio" name="tabs" checked>
+			<label for="hebergement2">Hébergements</label>
+
+			<input id="activites2" type="radio" name="tabs">
+			<label for="activites2">Activités</label>
 		</div>
 
-	</header>
-	<header>
-		
-	</header>
+	</header><!-- ---------------------FIN header---------------------------------------------------------------------------------- -->
 
-	<!-- section 1 -->
+	<!--------------------------- section RECHERCHE----------------------------------------------------------- -->
 	<section id="section1">
 		<p><i class="fas fa-dog"></i></p>
 		<p><i class="fas fa-child"></i></p>

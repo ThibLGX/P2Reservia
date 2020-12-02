@@ -1,38 +1,47 @@
 body {
   color: green;
 }
-
-header {
-  display: flex;
-  margin-top: 4%;
+/* ##############  EN-TETE ################ */
+.header1 {
+  display: none;
 }
 
-.logo {
-  display: flex;
+.header2 {
+  display: block;
 }
 
-nav ul {
-  list-style-type: none;
+.upheader {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav li {
-  margin-right: 15px;
+
+.tabs {
+  max-width: 768px;
+  display: flex;
+  margin-left: -2em;
+  margin-right: -2em;
 }
-nav a {
+
+.tabs input {
+  display: none;
+}
+
+.tabs label {
+  flex: 1;
+  text-align: center;
+  line-height: 4rem;
+  cursor: pointer;
+}
+
+.tabs input:checked + label {
+  box-shadow: inset 0 -0.2rem #0065fc;
+  color: #0065fc;
+}
+
+.inscrire2 a {
   text-decoration: none;
-  color: black;
-}
-
-header a {
-  display: flex;
-  text-decoration: none;
-  margin-left: 50px;
-}
-
-.tete {
-  display: flex;
-}
-.inscrire a {
   font-family: "Raleway Bold", arial;
   color: #0065fc;
 }
+/* ##############  FIN EN-TETE ################ */
