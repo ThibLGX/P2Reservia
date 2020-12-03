@@ -20,8 +20,8 @@
 body {
   font-family: "raleway", Arial, sans-serif;
   font-style: normal;
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 3.5%;
+  margin-right: 5.5%;
 }
 /* ##############  FIN CORPS ################ */
 /* ##################################################################################################### */
@@ -177,4 +177,68 @@ body {
   border: 1.6px solid #f2f2f2;
   padding: 4px 7px 4px 7px;
   border-radius: 100px;
+}
+#marseille {
+  background-color: #f2f2f2;
+  width: 67.2%;
+  border-radius: 10px;
+}
+
+.logm div {
+  background-color: white;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 5px;
+  line-height: 5px;
+  height: 190px;
+}
+.logm div p {
+  line-height: 1px;
+  margin-left: 12px;
+  margin-bottom: 1px;
+}
+.logm span {
+  color: #0065fc;
+  margin-left: 12px;
+  line-height: 30px;
+}
+
+#stargrey1,
+#stargrey2,
+#stargrey3,
+#stargrey4,
+#stargrey5 {
+  color: #f2f2f2;
+}
+
+.logm img {
+  width: 240px;
+  height: 112px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.logm {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+
+#marseille h2 {
+  padding-top: 45px;
+  margin: 40px;
+}
+
+#marseille a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-left: 40px;
+  line-height: 100px;
+}
+
+.logm .titre {
+  font-weight: bolder;
 }
