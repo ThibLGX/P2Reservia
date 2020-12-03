@@ -70,39 +70,76 @@
 	</header><!-- ---------------------FIN header---------------------------------------------------------------------------------- -->
 
 	<!--------------------------- section RECHERCHE----------------------------------------------------------- -->
-	<section id="section1">
-		<p><i class="fas fa-dog"></i></p>
-		<p><i class="fas fa-child"></i></p>
-		<p><i class="fas fa-heart"></i></p>
-		<p><i class="fas fa-money-bill-wave"></i></p>
+	<section id="recherche">
+		<h2>Trouvez votre hébergement pour les vacances de rêve</h2>
 		
+		<p>En plein centre ville ou en pleine nature</p>
+		
+		<form method="POST" action="XtraitementX">
+			<div id="bouton">
+				<label id="pos"><i class="fas fa-map-marker-alt"></i></label>
+				<input type="text" placeholder="lieu">
+				<input type="submit" value="Rechercher">
+			</div>
+		</form>
+	
+	</section>
+	<!-- ---------------------FIN header---------------------------------------------------------------------------------- -->
+<!--------------------------- section FILTRE----------------------------------------------------------- -->
+		
+	<section id="filter">
+		<form method="POST" action="filter">
+			<div id="filtres">Filtres
+				<div class="icon1">
+					<i class="fas fa-money-bill-wave"></i>
+					<select name="money" id="money">
+						<option value="eco">Economique</option>
+						<option value="aff">Affaire</option>
+					</select>
+				</div>
+
+				<div class="icon2">
+					<i class="fas fa-child"></i>
+					<select name="famille" id="famille">
+						<option value="famillial">Famillial</option>
+						<option value="aff">Couple</option>
+					</select>
+				</div>
+
+				<div class="icon3">
+					<i class="fas fa-heart"></i>
+					<select name="theme" id="theme">
+						<option value="romantique">Romantique</option>
+						<option value="amis">Entre amis</option>
+					</select>
+				</div>
+
+				<div class="icon4">
+				<i class="fas fa-dog"></i>
+				<select name="animaux" id="animaux">
+					<option value="oui">Animaux autorisés</option>
+					<option value="non">Pas d'animaux</option>
+				</select>
+				</div>
+			</div>
+		</form>
+
 	</section>
 
-	<!-- section 2 -->
-	<section id="section2">
-		
-
-	</section>
-
-	<!-- section3 -->
-
-	<section id="section3">
+	<!-- ---------------------FIN FILTRE---------------------------------------------------------------------------------- -->
+<!--------------------------- section HERBERGEMENTS----------------------------------------------------------- -->
+	
+	<section id="hebergement">
 		
 	</section>
 	
 	<!-- section 4 -->
 
-	<section id="section4">
+	<section id="activité">
 		
 	</section>
 
-	<!-- section 5 -->
-
-	<section id="section5">
-		
-	</section>
-
-	<!-- footer -->
+<!-- footer -->
 
 	<footer>
 		
