@@ -313,5 +313,81 @@ body {
   font-weight: bolder;
 }
 /* --- fin populaire ----- */
-#herbergement {
+
+/* ############## FIN SECTION DE HERBERGEMENT ################ */
+/* ##################################################################################################### */
+/* ############## SECTION ACTIVITES ################ */
+#titrea {
+  margin-top: 50px;
+  margin-bottom: -30px;
+}
+
+#activite img {
+  width: 300px;
+}
+#activite {
+  display: flex;
+}
+#activite div {
+  margin: 40px;
+  margin-left: 0px;
+}
+#col1 {
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 12px 15px 3px #f2f2f2;
+}
+#col3 {
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 12px 15px 3px #f2f2f2;
+}
+#col21 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 12px 15px 3px #f2f2f2;
+}
+#col22 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 12px 15px 3px #f2f2f2;
+}
+#col41 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 12px 15px 3px #f2f2f2;
+}
+#col42 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 12px 15px 3px #f2f2f2;
+}
+#col1 img,
+#col3 img {
+  height: 394px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+#col21 img {
+  height: 190px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+#col22 img {
+  height: 120px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+#col4 img {
+  height: 155px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+p {
+  font-weight: bolder;
+  padding-left: 20px;
 }
