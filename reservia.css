@@ -166,6 +166,12 @@ body {
   font-weight: bold;
   flex-wrap: wrap;
 }
+#filtres p {
+  margin-left: -20px;
+  position: relative;
+  top: 5px;
+  font-weight: bolder;
+}
 /* ############## FIN SECTION DE FILTRES ################ */
 /* ##################################################################################################### */
 /* ############## SECTION HERBERGEMENT ################ */
@@ -253,7 +259,7 @@ body {
 
 #popu {
   background-color: #f2f2f2;
-  width: 30%;
+  width: 29%;
   border-radius: 10px;
   display: inline-block;
   margin-left: 35px;
@@ -327,9 +333,10 @@ body {
 }
 #activite {
   display: flex;
+  flex-wrap: wrap;
 }
 #activite div {
-  margin: 40px;
+  margin: 35px;
   margin-left: 0px;
 }
 #col1 {
@@ -391,3 +398,27 @@ p {
   font-weight: bolder;
   padding-left: 20px;
 }
+/* ############## FIN SECTION DE ACTIVITE ################ */
+/* ##################################################################################################### */
+/* ############## SECTION FOOTER ################ */
+footer {
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 0px;
+  right: 0;
+  display: flex;
+  padding-left: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer div {
+  margin-right: 250px;
+  line-height: 30px;
+}
+footer span {
+  font-weight: bold;
+}
+/* ############## FIN SECTION DE ACTIVITE ################ */
+/* ##################################################################################################### */

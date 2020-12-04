@@ -146,3 +146,13 @@ span img {
   margin-bottom: -20px;
   margin-top: 10px;
 }
+#col42 {
+  margin-bottom: 60px;
+}
+/* ##############  FIN ACTIVITÉ ################ */
+
+/* ##############  FOOTER ################ */
+footer {
+  display: flex;
+  flex-direction: column;
+}
