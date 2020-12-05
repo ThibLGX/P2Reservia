@@ -76,50 +76,64 @@ body {
 #popu {
   width: 110%;
   margin-left: -20px;
-  margin-right: -20px;
+  margin-right: -0px;
   margin-bottom: 0px;
   border-radius: 0;
 }
-#marseille {
-  width: 110%;
-  background-color: white;
-}
+
 .logpo img {
   width: 170px;
-  height: 178px;
+  height: 165px;
   margin-right: 10px;
-}
-
-.logm img {
-  width: 100%;
-  height: 112px;
-  object-fit: cover;
-}
-
-.logm div {
-  margin-left: 0px;
-  margin-bottom: 1%;
-  width: 87%;
-  background-color: white;
-  box-shadow: 1px 12px 15px 3px #f2f2f2;
 }
 
 .logpo div {
   height: 178px;
   box-shadow: 0px 0px 40px 10px #2020202d;
-  margin-bottom: 0px;
+  margin-bottom: 3px;
+  width: 95%;
 }
 .logpo #blanc {
   margin-bottom: 50px;
 }
 .logpo span {
-  margin-left: 10px;
+  margin-left: 0px;
+  line-height: 40px;
 }
 .logpo p {
-  display: flex;
+  margin-left: 180px;
+}
+.logpo #matin span i {
+  padding-top: 50px;
+}
+.logpo #blanc span i {
+  padding-top: 50px;
+}
+.logpo #hotes span i {
+  padding-top: 10px;
+}
+#marseille {
+  width: 100%;
+  background-color: white;
+}
+.logm img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
 
-#marseille a {
+.logm div {
+  margin-left: -15px;
+  margin-bottom: 1%;
+  width: 100%;
+  height: 230px;
+  background-color: white;
+  box-shadow: 1px 12px 15px 3px #f2f2f2;
+}
+#marseille h2 {
+  margin: 40px 0 5px 5px;
+}
+#marseille #afficher {
   position: relative;
   top: -20px;
   margin-left: 20px;
@@ -135,11 +149,11 @@ body {
 #activite img,
 span img {
   width: 100%;
-  height: 112px;
+  height: 150px;
 }
 #activite div {
-  width: 98%;
-  margin-bottom: 0px;
+  width: 100%;
+  margin: 40px 0 -10px -10px;
 }
 #titrea {
   margin-left: 20px;

@@ -62,7 +62,7 @@ body {
   box-shadow: inset 0em 0.2em #0065fc;
   color: #0065fc;
 }
-.menu a {
+.menu #inscrire {
   display: flex;
   text-decoration: none;
   color: #0065fc;
@@ -75,6 +75,13 @@ body {
   display: flex;
   justify-content: center;
 }
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+.menu #hebergement1 {
+  color: #0065fc;
+}
 /* ############## FIN DE EN-TETE ################ */
 /* ##################################################################################################### */
 /* ############## SECTION DE RECHERCHE ################ */
@@ -84,6 +91,7 @@ body {
 }
 #recherche p {
   line-height: 0px;
+  margin-left: -20px;
 }
 
 #bouton input {
@@ -208,13 +216,13 @@ body {
 }
 .logm div p {
   line-height: 1px;
-  margin-left: 12px;
   margin-bottom: 1px;
 }
 .logm span {
   color: #0065fc;
-  margin-left: 12px;
+  margin-left: 18px;
   line-height: 30px;
+  font-size: 12px;
 }
 
 #stargrey1,
@@ -242,15 +250,15 @@ body {
 #marseille h2 {
   margin: 40px;
 }
-
 #marseille a {
   text-decoration: none;
   color: black;
+}
+#marseille #afficher {
   font-weight: bold;
   margin-left: 40px;
   line-height: 100px;
 }
-
 .logm .titre {
   font-weight: bolder;
 }
@@ -263,6 +271,7 @@ body {
   border-radius: 10px;
   display: inline-block;
   margin-left: 35px;
+  padding-bottom: 30px;
 }
 
 #popu h2 {
@@ -270,53 +279,66 @@ body {
   flex-direction: row;
   justify-content: space-between;
 }
-
+#popu a {
+  text-decoration: none;
+  color: black;
+}
 .logpo div {
   background-color: white;
   border-radius: 20px;
-  margin: 22px;
-  padding: 5px;
-  line-height: 5px;
-  height: 133px;
-  width: 85%;
-  text-align: left;
-  line-height: 10px;
+  margin-top: 10px;
+  height: 145px;
 }
-.logpo div p {
-  line-height: 15px;
-  margin-left: 42%;
-  margin-bottom: 1px;
-  height: 16px;
-}
-.logpo span {
+
+.logpo span i {
   color: #0065fc;
-  margin-left: 12px;
-  line-height: 70px;
-}
-.logpo #hotes span {
-  line-height: 20px;
 }
 
 .logpo img {
   width: 126px;
-  height: 134px;
+  height: 93%;
   object-fit: cover;
   border-radius: 15px 0px 0 15px;
   float: left;
+  margin: 1.5%;
+  margin-right: 4%;
 }
 
 .logpo {
   margin-left: 20px;
+  margin-right: 20px;
   display: flex;
   flex-direction: column;
 }
-
+.logpo div {
+  margin-bottom: 22px;
+}
+.logpo div p {
+  margin-top: 0%;
+  line-height: 220%;
+}
+.logpo .titre {
+  font-weight: bolder;
+}
+.logpo #matin span i {
+  padding-top: 30px;
+}
+.logpo #blanc span i {
+  padding-top: 30px;
+}
+.logpo #hotes span i {
+  padding-top: 10px;
+}
 #popu h2 {
   margin: 40px;
 }
 
 .logpo .titre {
   font-weight: bolder;
+}
+#stargrey6,
+#stargrey7 {
+  color: #f2f2f2;
 }
 /* --- fin populaire ----- */
 
@@ -325,7 +347,7 @@ body {
 /* ############## SECTION ACTIVITES ################ */
 #titrea {
   margin-top: 50px;
-  margin-bottom: -30px;
+  margin-bottom: -10px;
 }
 
 #activite img {
@@ -336,14 +358,18 @@ body {
   flex-wrap: wrap;
 }
 #activite div {
-  margin: 35px;
+  margin: 2.6%;
   margin-left: 0px;
 }
 #col1 {
+  width: 100%;
+  height: 94%;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 12px 15px 3px #f2f2f2;
 }
 #col3 {
+  width: 100%;
+  height: 94%;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 12px 15px 3px #f2f2f2;
 }
@@ -356,7 +382,6 @@ body {
 #col22 {
   display: flex;
   flex-direction: column;
-  margin-top: 35px;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 12px 15px 3px #f2f2f2;
 }
@@ -369,13 +394,12 @@ body {
 #col42 {
   display: flex;
   flex-direction: column;
-  margin-top: 35px;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 12px 15px 3px #f2f2f2;
 }
 #col1 img,
 #col3 img {
-  height: 394px;
+  height: 380px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
 }
@@ -393,6 +417,11 @@ body {
   height: 155px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
+}
+#activite a {
+  text-decoration: none;
+  color: black;
+  margin: 2% 2.6% 2.6% 0%;
 }
 p {
   font-weight: bolder;
