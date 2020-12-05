@@ -200,7 +200,7 @@ body {
 /* --- marseille ----- */
 #marseille {
   background-color: #f2f2f2;
-  width: 65.7%;
+  max-width: 913px;
   border-radius: 10px;
   display: inline-block;
   vertical-align: top;
@@ -267,7 +267,7 @@ body {
 
 #popu {
   background-color: #f2f2f2;
-  width: 29%;
+  width: 388px;
   border-radius: 10px;
   display: inline-block;
   margin-left: 35px;

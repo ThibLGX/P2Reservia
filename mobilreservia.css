@@ -44,6 +44,13 @@ body {
   font-family: "Raleway Bold", arial;
   color: #0065fc;
 }
+.tabs a {
+  text-decoration: none;
+  color: black;
+}
+.tabs #hebergement1 {
+  color: #0065fc;
+}
 /* ##############  FIN EN-TETE ################ */
 
 #bouton input {
@@ -81,6 +88,10 @@ body {
   border-radius: 0;
 }
 
+#popu h2 {
+  margin-left: 30px;
+}
+
 .logpo img {
   width: 170px;
   height: 165px;
@@ -100,9 +111,7 @@ body {
   margin-left: 0px;
   line-height: 40px;
 }
-.logpo p {
-  margin-left: 180px;
-}
+
 .logpo #matin span i {
   padding-top: 50px;
 }
