@@ -16,12 +16,18 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face {
+  font-family: "rbold";
+  src: url("police/Raleway-Bold.ttf");
+}
 body {
   font-family: "raleway", Arial, sans-serif;
   font-style: normal;
   margin-left: 3.5%;
   margin-right: 3.5%;
+}
+p {
+  padding-left: 20px;
 }
 /* ##############  FIN CORPS ################ */
 /* ##################################################################################################### */
@@ -68,6 +74,7 @@ body {
   color: #0065fc;
   font-weight: bolder;
   margin-top: 15px;
+  font-family: "rbold";
 }
 
 .tete div label {
@@ -88,6 +95,7 @@ body {
 
 #recherche h2 {
   padding-top: 20px;
+  font-family: "rbold";
 }
 #recherche p {
   line-height: 0px;
@@ -105,6 +113,7 @@ body {
   padding-left: 65px;
   font-weight: 500;
   font-size: 110%;
+  font-family: "rbold";
 }
 
 #bouton {
@@ -127,7 +136,7 @@ body {
   color: white;
   font-weight: 500;
   font-size: 100%;
-  width: 120px;
+  width: 130px;
   height: 47px;
   position: absolute;
   left: 340px;
@@ -147,6 +156,7 @@ body {
   padding-right: 10px;
   position: relative;
   margin: 10px 0px 0 20px;
+  font-family: "rbold";
 }
 
 #filtres i {
@@ -178,7 +188,7 @@ body {
   margin-left: -20px;
   position: relative;
   top: 5px;
-  font-weight: bolder;
+  font-family: "rbold";
 }
 /* ############## FIN SECTION DE FILTRES ################ */
 /* ##################################################################################################### */
@@ -249,19 +259,21 @@ body {
 
 #marseille h2 {
   margin: 40px;
+  font-family: "rbold";
 }
 #marseille a {
   text-decoration: none;
   color: black;
 }
 #marseille #afficher {
-  font-weight: bold;
+  font-family: "rbold";
   margin-left: 40px;
   line-height: 100px;
 }
 .logm .titre {
-  font-weight: bolder;
+  font-family: "rbold";
 }
+
 /* --- fin marseille ----- */
 /* ----------------- populaire ------------------- */
 
@@ -278,6 +290,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-family: "rbold";
 }
 #popu a {
   text-decoration: none;
@@ -292,6 +305,9 @@ body {
 
 .logpo span i {
   color: #0065fc;
+}
+.logpo span {
+  font-family: "rbold";
 }
 
 .logpo img {
@@ -333,9 +349,6 @@ body {
   margin: 40px;
 }
 
-.logpo .titre {
-  font-weight: bolder;
-}
 #stargrey6,
 #stargrey7 {
   color: #f2f2f2;
@@ -348,6 +361,7 @@ body {
 #titrea {
   margin-top: 50px;
   margin-bottom: -10px;
+  font-family: "rbold";
 }
 
 #activite img {
@@ -423,8 +437,8 @@ body {
   color: black;
   margin: 2% 2.6% 2.6% 0%;
 }
-p {
-  font-weight: bolder;
+#activite p {
+  font-family: "rbold";
   padding-left: 20px;
 }
 /* ############## FIN SECTION DE ACTIVITE ################ */
@@ -436,7 +450,7 @@ footer {
   left: 0px;
   right: 0;
   display: flex;
-  padding-left: 30px;
+  padding: 15px 0 20px 30px;
 }
 footer a {
   text-decoration: none;
@@ -447,7 +461,7 @@ footer div {
   line-height: 30px;
 }
 footer span {
-  font-weight: bold;
+  font-family: "rbold";
 }
 /* ############## FIN SECTION DE ACTIVITE ################ */
 /* ##################################################################################################### */

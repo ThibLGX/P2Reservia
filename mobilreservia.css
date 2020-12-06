@@ -1,5 +1,5 @@
 body {
-  color: green;
+  color: black;
 }
 /* ##############  EN-TETE ################ */
 .header1 {
@@ -43,6 +43,7 @@ body {
   text-decoration: none;
   font-family: "Raleway Bold", arial;
   color: #0065fc;
+  font-family: "rbold";
 }
 .tabs a {
   text-decoration: none;
