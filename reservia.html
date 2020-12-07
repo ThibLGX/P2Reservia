@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 
@@ -35,62 +35,60 @@
 	<title>Réservia</title>
 </head>
 <body>
-	<!-- ---------------------header---------------------------------------------------------------------------------- -->
+	<!-- ######################    header      ##################################### -->
 	<header class="header1"><!-- en-tête ordi et tablette -->
-		<div><img src="images/logo/Reservia.svg" alt="logo1" class="logo1"></div><!-- image du logo -->
 		
-		<div class="tete">
-			<div class="menu">
-				
-				<input id="hebergement1" type="radio" name="menu" checked>
-				<label for="hebergement1"><a id="hebergement1" href="#hebergement">Hébergements</a></label>
-	
-				<input id="activites1" type="radio" name="menu">
-				<label for="activites1"><a  href="#titrea">Activités</a></label>
-
-				<a id="inscrire" href="#">S'inscrire</a>
-			</div>
-
-			</div><!-- S'inscrire -->
+		<div><img src="images/logo/Reservia.svg" alt="logo1" class="logo1"><!-- image du logo ordi -->
 		</div>
+
+		<div class="menu"><!-- menu ordi -->				
+			<input id="hebergement1" type="radio" name="menu" checked>
+			<label for="hebergement1"><a id="hbg1" href="#hebergement">Hébergements</a></label>
+	
+			<input id="activites1" type="radio" name="menu">
+			<label for="activites1"><a  href="#titrea">Activités</a></label>
+
+			<a id="inscrire" href="#">S'inscrire</a><!-- S'inscrire -->
+		</div>		
 	</header>
 
-	<header class="header2"><!-- en-tête mobil -->
+	<header class="header2"><!-- ###########en-tête mobil########## -->
+		
 		<div class="upheader">
 			<div><img src="images/logo/Reservia.svg" alt="logo" class="logo"></div><!-- image du logo -->
 			<div class="inscrire2"><a href="#">S'inscrire</a></div><!-- S'inscrire -->
 		</div>
-		<div class="tabs">
-			<input id="hebergement1" type="radio" name="menu" checked>
-			<label for="hebergement1"><a id="hebergement1" href="#hebergement">Hébergements</label></a>
+		
+		<div class="tabs"><!-- menu mobil -->
+			<input id="hebergement1m" type="radio" name="menu" checked>
+			<label for="hebergement1"><a id="hbg1m" href="#hebergement">Hébergements</a></label>
 
-			<input id="activites1" type="radio" name="menu">
-			<label for="activites1"><a  href="#titrea">Activités</label></a>
+			<input id="activites1m" type="radio" name="menu">
+			<label for="activites1"><a  href="#titrea">Activités</a></label>
 		</div>
 
-	</header><!-- ---------------------FIN header---------------------------------------------------------------------------------- -->
+	</header><!-- #################       FIN header          ####################### -->
 
-	<!--------------------------- section RECHERCHE----------------------------------------------------------- -->
+<!-- ##########################      section RECHERCHE          ################################## -->
 	<section id="recherche">
 		<h2>Trouvez votre hébergement pour les vacances de rêve</h2>
-		
 		<p>En plein centre ville ou en pleine nature</p>
 		
-		<form method="POST" action="XtraitementX">
-			<div id="bouton">
+		<form id="bouton" method="POST" action="XtraitementX">
 				<label id="pos"><i class="fas fa-map-marker-alt"></i></label>
 				<input type="text" placeholder="lieu">
 				<input type="submit" value="Rechercher">
-			</div>
 		</form>
 	
 	</section>
-	<!-- ---------------------FIN header---------------------------------------------------------------------------------- -->
-<!--------------------------- section FILTRE----------------------------------------------------------- -->
+<!-- #######################       section RECHERCHE          ###################################### -->
+<!-- #########################        section FILTRE            ##################################### -->
 		
-	<section id="filter">
-		<form method="POST" action="filter">
-			<div id="filtres"><p>Filtres</p>
+	<section>
+		<form id="filtres" method="POST" action="filter">
+			
+			<p>Filtres</p>
+
 				<div class="icon1">
 					<i class="fas fa-money-bill-wave"></i>
 					<select name="money" id="money">
@@ -122,17 +120,15 @@
 					<option value="non">Pas d'animaux</option>
 				</select>
 				</div>
-			</div>
 		</form>
-
 	</section>
 
-	<!-- ---------------------FIN FILTRE---------------------------------------------------------------------------------- -->
-<!--------------------------- section HERBERGEMENTS----------------------------------------------------------- -->
+<!-- ###############################        FIN FILTRE         ############################################ -->
+
 		<div class="info">
 			<i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville
 		</div>
-
+<!-- ###########################            section HERBERGEMENTS          ################################ -->
 	<section id="hebergement">
 		<div id="marseille">
 
@@ -184,9 +180,9 @@
 
 			</div>
 
-		<a id="afficher" href="###">Afficher plus</a>	
+			<a id="afficher" href="###">Afficher plus</a>	
 
-		</div>
+		</div><!-- fin de div id=marseille -->
 
 		<div id="popu">
 
@@ -197,67 +193,73 @@
 
 				<a href="###"><div id="matin">
 					<img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="matin">
-					<p><span class="titre">Hôtel Le soleil du matin</span><br/>
+					<span class="titre">Hôtel Le soleil du matin</span><br/>
 					Nuit à partir de 128€<br/>
-					<span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+					<span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
 				</div></a>
 
 				<a href="###"><div id="hotes">
 					<img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="hot">
-					<p><span class="titre">Au coeur de l'eau<br/>
+					<span class="titre">Au coeur de l'eau<br/>
 					Chambre d'hôtes</span><br/>
 					Nuit à partir de 71€<br/>
-					<span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i id="stargrey6" class="fas fa-star"></i></span></p>
+					<span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i id="stargrey6" class="fas fa-star"></i></span>
 				</div></a>
 
 				<a href="###"><div id="blanc">
 					<img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="blanc">
-					<p><span class="titre">Tout bleu et blanc</span><br/>
+					<span class="titre">Tout bleu et blanc</span><br/>
 					Nuit à partir de 68€<br/>	
-					<span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i id="stargrey7" class="fas fa-star"></i></span></p>
+					<span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i id="stargrey7" class="fas fa-star"></i></span>
 				</div></a>
-
 
 			</div>
 
 		</div>
 	</section>
 	
-	<!-- ACTIVITES -->
+
+	<!-- ##############################          ACTIVITES           ############################# -->
+	
 	<h2 id="titrea">Activités à Marseille</h2>
+	
 	<section id="activite">
 		<a href="###"><div id="col1">
 			<img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux">
 			<p>Vieux Port</p>
 		</div></a>
+		
 		<div id="col2">
-			<a href="###"><span id="col21">
+			<a href="###" id="col21">
 				<img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="fort">
 				<p>Fort de Pomègues</p>
-			</span></a>
-			<a href="###"><span id="col22">
+			</a>
+			<a href="###" id="col22">
 				<img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="ile">
 				<p>Ile du Frioul</p>
-			</span></a>
+			</a>
 		</div>
+		
 		<a href="###"><div id="col3">
 			<img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="parcn">
 			<p>Parc National des Calanques</p>
 		</div></a>
+		
 		<div id="col4">
-			<a href="###"><span id="col41">
+			<a href="###" id="col41">
 				<img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="notre">
 				<p>Notre Dame-de-la-Garde</p>
-			</span></a>
-			<a href="###"><span id="col42">
+			</a>
+			<a href="###" id="col42">
 				<img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parcl">
 				<p>Parc de Longchamp</p>
-			</span></a>
+			</a>
 		</div>
 		
 	</section>
 
-<!-------------------------------- footer -------------------------------------->
+
+<!-- ##################        footer          ############################ -->
 
 	<footer>
 		<div>

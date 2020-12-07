@@ -56,13 +56,6 @@ p {
   display: none;
 }
 
-.menu label {
-  text-align: center;
-  line-height: 4rem;
-  cursor: pointer;
-  margin-top: -0.4697em;
-}
-
 .menu input:checked + label {
   width: 10em;
   box-shadow: inset 0em 0.2em #0065fc;
@@ -76,8 +69,11 @@ p {
   margin-top: 15px;
   font-family: "rbold";
 }
-
-.tete div label {
+.menu label {
+  text-align: center;
+  line-height: 4rem;
+  cursor: pointer;
+  margin-top: -0.4697em;
   width: 160px;
   display: flex;
   justify-content: center;
@@ -86,7 +82,8 @@ p {
   text-decoration: none;
   color: black;
 }
-.menu #hebergement1 {
+.menu #hebergement1,
+#hbg1 {
   color: #0065fc;
 }
 /* ############## FIN DE EN-TETE ################ */
@@ -305,6 +302,7 @@ p {
 
 .logpo span i {
   color: #0065fc;
+  font-size: 12px;
 }
 .logpo span {
   font-family: "rbold";
@@ -329,7 +327,8 @@ p {
 .logpo div {
   margin-bottom: 22px;
 }
-.logpo div p {
+.logpo div span,
+.logpo div {
   margin-top: 0%;
   line-height: 220%;
 }
@@ -365,25 +364,27 @@ p {
 }
 
 #activite img {
-  width: 300px;
+  width: 308px;
 }
 #activite {
   display: flex;
   flex-wrap: wrap;
 }
 #activite div {
-  margin: 2.6%;
-  margin-left: 0px;
+  margin: 2.6% 0 2.6% 0;
+}
+#col2 {
+  padding-right: 2.6%;
 }
 #col1 {
   width: 100%;
-  height: 94%;
+  height: 97%;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 12px 15px 3px #f2f2f2;
 }
 #col3 {
   width: 100%;
-  height: 94%;
+  height: 97%;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 12px 15px 3px #f2f2f2;
 }
@@ -392,28 +393,32 @@ p {
   flex-direction: column;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 12px 15px 3px #f2f2f2;
+  width: 100%;
 }
 #col22 {
   display: flex;
   flex-direction: column;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 12px 15px 3px #f2f2f2;
+  width: 100%;
 }
 #col41 {
   display: flex;
   flex-direction: column;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 12px 15px 3px #f2f2f2;
+  width: 100%;
 }
 #col42 {
   display: flex;
   flex-direction: column;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 1px 12px 15px 3px #f2f2f2;
+  width: 100%;
 }
 #col1 img,
 #col3 img {
-  height: 380px;
+  height: 400px;
   object-fit: cover;
   border-radius: 15px 15px 0 0;
 }
@@ -435,7 +440,7 @@ p {
 #activite a {
   text-decoration: none;
   color: black;
-  margin: 2% 2.6% 2.6% 0%;
+  margin: 2.6% 2.6% 12% 0%;
 }
 #activite p {
   font-family: "rbold";
