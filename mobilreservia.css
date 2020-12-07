@@ -5,7 +5,6 @@ body {
 .header1 {
   display: none;
 }
-
 .header2 {
   display: block;
 }
@@ -19,8 +18,8 @@ body {
 .tabs {
   max-width: 768px;
   display: flex;
-  margin-left: -2em;
-  margin-right: -2em;
+  margin-left: -1em;
+  margin-right: -1em;
 }
 
 .tabs input {
@@ -41,7 +40,6 @@ body {
 
 .inscrire2 a {
   text-decoration: none;
-  font-family: "Raleway Bold", arial;
   color: #0065fc;
   font-family: "rbold";
 }
@@ -64,7 +62,7 @@ body {
 #filtres p {
   border: 1px solid white;
   width: 100%;
-  height: 0px;
+  margin-bottom: 0;
   color: black;
 }
 #filtres .icon1,
@@ -104,14 +102,10 @@ body {
   margin-bottom: 10px;
   width: 97%;
 }
-.logpo #blanc {
-  margin-bottom: 50px;
-}
+
 .logpo span {
-  margin-left: 0px;
   line-height: 40px;
 }
-
 .logpo #matin span i {
   padding-top: 50px;
 }
@@ -122,7 +116,6 @@ body {
   padding-top: 10px;
 }
 #marseille {
-  width: 100%;
   background-color: white;
 }
 .logm img {
@@ -133,8 +126,6 @@ body {
 
 .logm div {
   margin-left: -15px;
-  margin-bottom: 1%;
-  width: 100%;
   height: 230px;
   background-color: white;
   box-shadow: 1px 12px 15px 3px #f2f2f2;
@@ -161,7 +152,6 @@ span img {
   height: 150px;
 }
 #activite div {
-  width: 100%;
   margin: -10px 0 -10px -10px;
 }
 #titrea {
@@ -169,7 +159,8 @@ span img {
   margin-bottom: 20px;
   margin-top: 10px;
 }
-#col3 p {
+#col21,
+#col22 {
   width: 100%;
 }
 #col42 {
