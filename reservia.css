@@ -52,24 +52,10 @@ p {
   display: flex;
 }
 
-.menu input {
+.header1 .menu input {
   display: none;
 }
-
-.menu input:checked + label {
-  width: 10em;
-  box-shadow: inset 0em 0.2em #0065fc;
-  color: #0065fc;
-}
-.menu #inscrire {
-  display: flex;
-  text-decoration: none;
-  color: #0065fc;
-  font-weight: bolder;
-  margin-top: 15px;
-  font-family: "rbold";
-}
-.menu label {
+.header1 .menu label {
   text-align: center;
   line-height: 4rem;
   cursor: pointer;
@@ -78,7 +64,21 @@ p {
   display: flex;
   justify-content: center;
 }
-.menu a {
+.header1 .menu input:checked + label {
+  width: 10em;
+  box-shadow: inset 0em 0.2em #0065fc;
+  color: #0065fc;
+}
+.header1 .menu #inscrire {
+  display: flex;
+  text-decoration: none;
+  color: #0065fc;
+  font-weight: bolder;
+  margin-top: 15px;
+  font-family: "rbold";
+}
+
+.header1 .menu a {
   text-decoration: none;
   color: black;
 }
@@ -203,7 +203,7 @@ p {
 /* --- marseille ----- */
 #marseille {
   background-color: #f2f2f2;
-  max-width: 913px;
+  max-width: 911px;
   border-radius: 10px;
   display: inline-block;
   vertical-align: top;
@@ -275,7 +275,7 @@ p {
   border-radius: 10px;
   display: inline-block;
   margin-left: 35px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 #popu h2 {
@@ -354,14 +354,14 @@ p {
 }
 
 #activite img {
-  width: 308px;
+  width: 305px;
 }
 #activite {
   display: flex;
   flex-wrap: wrap;
 }
 #activite div {
-  margin: 2.6% 0 2.6% 0;
+  margin: 2.6% 0 2.4% 0;
 }
 #col2 {
   padding-right: 2.6%;
@@ -429,6 +429,10 @@ p {
 #activite p {
   font-family: "rbold";
   padding-left: 20px;
+}
+#activite #col4 p,
+#activite #col2 p {
+  width: 293px;
 }
 /* ############## FIN SECTION DE ACTIVITE ################ */
 /* ##################################################################################################### */
