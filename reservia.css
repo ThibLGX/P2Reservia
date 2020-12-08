@@ -354,7 +354,7 @@ p {
 }
 
 #activite img {
-  width: 305px;
+  width: 300px;
 }
 #activite {
   display: flex;
@@ -364,7 +364,7 @@ p {
   margin: 2.6% 0 2.4% 0;
 }
 #col2 {
-  padding-right: 2.6%;
+  padding-right: 2.4%;
 }
 #col1 {
   height: 97%;
@@ -432,7 +432,7 @@ p {
 }
 #activite #col4 p,
 #activite #col2 p {
-  width: 293px;
+  width: 289px;
 }
 /* ############## FIN SECTION DE ACTIVITE ################ */
 /* ##################################################################################################### */
