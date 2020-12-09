@@ -359,7 +359,7 @@ p {
 #activite {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -100px;
+  margin-bottom: -5%;
 }
 #activite div {
   margin: 2.6% 0 2.4% 0;
