@@ -203,7 +203,8 @@ p {
 /* --- marseille ----- */
 #marseille {
   background-color: #f2f2f2;
-  max-width: 911px;
+  max-width: 897px;
+  padding-left: 15px;
   border-radius: 10px;
   display: inline-block;
   vertical-align: top;
