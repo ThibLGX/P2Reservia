@@ -7,6 +7,8 @@ body {
 }
 .header2 {
   display: block;
+  padding-top: 20px;
+  border: 1px solid greenyellow;
 }
 
 .upheader {
@@ -18,8 +20,11 @@ body {
 .tabs {
   max-width: 768px;
   display: flex;
-  margin-left: -1em;
-  margin-right: -1em;
+  margin-left: 0em;
+  margin-right: 0em;
+  padding-top: 20px;
+  box-shadow: inset 0 -0.2rem #f2f2f2;
+  border: 1px solid violet;
 }
 
 .tabs input {
@@ -52,12 +57,58 @@ body {
 }
 /* ##############  FIN EN-TETE ################ */
 
-#bouton input {
+#bouton {
+  display: none;
+}
+#boutonm input {
+  width: 350px;
+  height: 28px;
+  border: 1px solid #f2f2f2;
+  border-radius: 12px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  padding-left: 65px;
+  font-size: 110%;
+  font-family: "rbold";
+}
+
+#boutonm {
+  display: block;
+  position: relative;
+}
+
+#boutonm i {
+  width: 25px;
+  position: absolute;
+  top: 8px;
+  background-color: #f2f2f2;
+  color: black;
+  padding: 15px 5px 15px 20px;
+  border-radius: 12px 0 0 12px;
+}
+
+#boutonm input[type="image"] {
+  background-color: #0065fc;
+  color: white;
+  font-size: 100%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 280px;
+  border-radius: 12px 12px 12px 12px;
+  padding: 10px 10px 10px 10px;
+}
+
+#boutonm input {
   width: 250px;
 }
-#bouton input[type="submit"] {
-  left: 240px;
+#boutonm input[type="submit"] {
+  left: 300px;
+  width: 50px;
+  border-radius: 30% 30% 30% 30%;
 }
+
 /* ##############  FILTRE ################ */
 #filtres p {
   border: 1px solid white;
@@ -77,13 +128,15 @@ body {
 #hebergement {
   display: flex;
   flex-direction: column-reverse;
+  border: 1px solid violet;
 }
 #popu {
-  width: 110%;
-  margin-left: -20px;
-  margin-right: -0px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 0px;
   border-radius: 0;
+  border: 1px solid orange;
 }
 
 #popu h2 {
