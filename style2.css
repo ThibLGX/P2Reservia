@@ -64,7 +64,10 @@ body {
 }
 /* ##############  FIN EN-TETE ################ */
 #recherche h2 {
-  margin-left: 4%;
+  margin-left: 5%;
+}
+#recherche p {
+  margin-left: 0px;
 }
 
 #bouton {
@@ -121,7 +124,7 @@ body {
 
 /* ##############  FILTRE ################ */
 #filtres {
-  margin-left: 4%;
+  margin-left: 5%;
 }
 #filtres p {
   border: 1px solid white;
