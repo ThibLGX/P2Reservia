@@ -192,19 +192,19 @@ body {
 .casep .starp {
   font-size: 80%;
   position: relative;
-  left: 25;
+  left: 0em;
   top: -5px;
 }
 .casep #starpopu {
   font-size: 80%;
   position: relative;
-  left: 25;
+  left: 0em;
   top: -15px;
 }
 aside #starblanc {
   font-size: 80%;
   position: relative;
-  left: 25;
+  left: 0em;
   top: -5px;
 }
 /* ##############  FIN HEBERGEMENT & POPULAIRE ################ */

@@ -95,7 +95,6 @@ p {
   font-family: "rbold";
 }
 
-}
 #recherche p {
   line-height: 0px;
   margin-left: -20px;
@@ -343,9 +342,11 @@ aside #starblanc {
 #activite {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-bottom: 40px;
+  padding-right: 1%;
 }
+
 #activite div {
   border-radius: 15px;
   margin-bottom: 40px;
